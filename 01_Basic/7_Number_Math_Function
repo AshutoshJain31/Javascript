@@ -1,0 +1,26 @@
+//Number and Math Function
+
+const age =new Number(1283456)
+
+// console.log(typeof age);
+
+// console.log(age.toFixed(1))
+// console.log( age.valueOf(age));
+// console.log(age.toPrecision(2));
+// console.log(age.toLocaleString("en-IN"));
+
+
+
+//***********Math Function**********
+
+// const number=Math.floor(Math.random()*10+1)
+// console.log(number);
+
+const max=13
+const min=10
+const value=Math.floor(Math.random()*(max-min+1)+min )
+console.log(value);
+
+
+
+

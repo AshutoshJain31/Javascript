@@ -51,6 +51,14 @@ console.log(dbDetails[1].name);
 console.log(Object.hasOwnProperty('name5'));
 
 
+//Destructuring
+
+const{email:emailAddres,name}=obj1
+
+console.log(emailAddres,name);
+
+
+
 
 
 

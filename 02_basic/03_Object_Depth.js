@@ -58,7 +58,17 @@ const{email:emailAddres,name}=obj1
 console.log(emailAddres,name);
 
 
+const obj4={
+    name:"ashutosh",
+    email:"ashu@gmail.com"
+}
 
+const obj5={
+    name1:"Vijay",
+    email1:"Vijay@gmail.com"
+}
+ 
+console.log(...Object.entries(obj4),...Object.entries(obj5));
 
 
 

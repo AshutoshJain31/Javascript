@@ -21,10 +21,10 @@ mapping.set("FR","France")
 console.log(mapping);
 
 
-for (const [key,value,index] of mapping) {
-    console.log(`${key}:${value}:${index}`);
+for (const [key,value] of mapping) {
+    console.log(`${key}:${value}`);
 }
-
+//By using For of loop we can no iterate throuh object
 const myobj1={
     one:'ashu',
     two:'vijay',

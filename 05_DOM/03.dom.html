@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Part-3</title>
+</head>
+<body>
+    <div id="Main">
+
+    </div>
+</body>
+<script>
+    const selector=document.querySelector("#Main")
+    console.log(selector);
+    const newele=document.createElement('ul')
+    newele.innerText="Unorder List"
+    const child=selector.appendChild(newele)
+    // console.log(child);
+    
+    const lang=(data)=>{
+        const list=document.createElement('li')
+        list.innerHTML=data
+        list.style.color="green"
+        selector.appendChild(list)
+    }
+    lang('python')
+    lang('Java')
+    lang('RPA')
+    lang('Golang')
+    // console.log(lang);
+
+
+</script>
+</html>

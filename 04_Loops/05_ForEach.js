@@ -6,7 +6,7 @@ const array1=['js','py','java','ruby','sql']
 // })
 
 array1.forEach((key)=>{
-    // console.log(key);
+    console.log(key);
     
 })
 

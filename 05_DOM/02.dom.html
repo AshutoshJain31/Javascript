@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Part-2</title>
+</head>
+<body>
+    <div class="Parent">
+        <li class="lang">Javascript</li>
+        <li class="lang">Python</li>
+        <li class="lang">Golang</li>
+    </div>
+</body>
+<script>
+    const main1=document.querySelector('.Parent')
+    console.log(main1.children);
+    main1.children[1].style.color="orange"
+    
+
+    const child=document.querySelector('.lang')
+    console.log(child);
+    console.log(child.parentElement);
+    console.log(child.nextElementSibling);
+    console.log("Nodes :", main1.childNodes);
+
+    
+    
+    
+</script>
+</html>
